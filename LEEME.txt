@@ -1,0 +1,22 @@
+FICHAS TÉCNICAS DONGCHENG · UYUSA  —  App instalable (PC y Android)
+
+Qué hace
+- Busca por SKU Uyusa (ej. DCPB488EM), modelo DongCheng (ej. DCPB698) o nombre (ej. esmeril 4 1/2).
+- Muestra la ficha y descarga o abre el PDF del producto seleccionado (344 fichas incluidas).
+- Funciona sin conexión: las fichas que ya abriste quedan guardadas en el equipo.
+
+Cómo instalarla
+Para instalarse, la carpeta debe publicarse en un sitio web con https (un requisito de Chrome).
+Opciones gratuitas y sencillas: Netlify Drop (app.netlify.com/drop), GitHub Pages o el hosting de la empresa.
+1. Descomprime este ZIP y sube la carpeta completa tal cual (index.html en la raíz).
+2. Abre la dirección del sitio:
+   - PC (Chrome o Edge): botón "Instalar app" de la barra roja, o el ícono de instalar en la barra de direcciones.
+   - Android (Chrome): botón "Instalar app", o menú ⋮ > "Instalar aplicación" / "Agregar a pantalla principal".
+3. Queda con su ícono (logos Uyusa + DongCheng) como una aplicación más.
+
+Uso local rápido en PC (sin instalar)
+- Con Python: abre una terminal en la carpeta y ejecuta:  python -m http.server 8080
+  Luego abre http://localhost:8080 en Chrome (desde localhost también se puede instalar).
+
+Actualizar fichas
+- Reemplaza data.json, las carpetas pdf/ e img/, y cambia "fichas-dc-v1" por "fichas-dc-v2" en sw.js para que los equipos tomen la versión nueva.
